@@ -1,0 +1,2 @@
+No becasue the two constructor have the same signature. The two constructor have the same name, number of parameter and the same type of parameter.
+Therefore, this will lead to a Duplicate method
