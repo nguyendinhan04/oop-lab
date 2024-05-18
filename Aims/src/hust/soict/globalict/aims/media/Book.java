@@ -42,7 +42,7 @@ public class Book extends Media{
     }
 
     public String toString(){
-        return"ID: "+ this.getId() +" Book - " + this.getTitle() + " - "+ this.getCategory() + " : " + this.getCost();
+        return"ID: "+ this.getId() +"- Book - " + this.getTitle() + " - "+ this.getCategory() + " : " + this.getCost();
     }
 
     public void play() {

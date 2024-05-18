@@ -49,7 +49,7 @@ public class CompactDisc extends Disc implements Playable{
     }
 
     public String toString(){
-        return"ID: "+ this.getId() + " CD - " + this.getTitle() + " - "+ this.getCategory() + " - " + this.getDirector() + " - " + this.getArtist() + " - " + this.getLength() + " : " + this.getCost();
+        return"ID: "+ this.getId() + "- CD - " + this.getTitle() + " - "+ this.getCategory() + " - " + this.getDirector() + " - " + this.getArtist() + " - " + this.getLength() + " : " + this.getCost();
     }
 
     public void play(){
